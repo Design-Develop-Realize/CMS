@@ -1,0 +1,25 @@
+{
+  "name": "Design-Develop-Realize/CMS",
+  "type": "project",
+  "description": "Content Management System for PHP 5.5+",
+  "homepage": "https://github.com/Design-Develop-Realize/CMS",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marc Towler",
+      "email": "marc@marctowler.co.uk",
+      "homepage": "https://www.marctowler.co.uk",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Invoice\\" : "src",
+      "Invoice\\Library\\" : "src/Library"
+    }
+  },
+  "minimum-stability": "dev"
+}
